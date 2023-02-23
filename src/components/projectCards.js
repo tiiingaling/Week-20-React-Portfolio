@@ -5,11 +5,11 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: 'Project 1',
-      image: 'https://via.placeholder.com/400x250',
-      description: '',
-      tags: ['React', 'Bootstrap', 'CSS'],
-      url: '#',
+      title: 'J.A.T.E',
+      image: 'https://infinite-escarpment-70643.herokuapp.com/assets/icons/icon_96x96.png',
+      description: 'Just Another Text Editor',
+      tags: ['React', 'Javascript', ''],
+      url: 'https://infinite-escarpment-70643.herokuapp.com',
     },
     {
       id: 2,
