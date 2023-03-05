@@ -1,101 +1,105 @@
 /* Set default font and background color */
 :root {
   --light: #f3e2d1;
-  --dark: #b4a094
+  --dark: #b4a094;
+  font-family: Arial, sans-serif;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: var(--light);
-    margin: 20px;
-  }
-  
-  /* Set container width and add padding */
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    background-color: var(--light); /* set background color */
-    padding: 1rem;
-  }
-  
-  .card {
-    max-width: 400px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
-  
-    /* set font color */
-    color: #3e3e3e;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .card h2 {
-    margin: 1rem;
-    font-size: 1.5rem;
-  }
-  
-  .card p {
-    margin: 1rem;
-    font-size: 1rem;
-  }
-  
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1rem;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .tags li {
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    background-color: #b4a094; /* set tag background color */
-    color: #fff; /* set tag font color */
-    font-size: 0.8rem;
-  }
-  
-  .card a {
-    display: block;
-    margin: 1rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    background-color: #b4a094; /* set button background color */
-    color: #fff; /* set button font color */
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .card a:hover {
-    background-color: #3e3e3e; /* set button hover background color */
-  }
-  
-  
-  /* Set footer styling */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  footer p {
-    margin: 0;
-  }
+* {
+  margin: 5px;
+  background-color: var(--light);
+}
+ 
+/* Set container width and add padding */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--light); /* set background color */
+  padding: 1rem;
+}
+
+.card {
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+
+  /* set font color */
+  color: #3e3e3e;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: auto;
+  height: auto;
+}
+
+.card h2 {
+  margin: 1rem;
+  font-size: 1.5rem;
+  background-color: #fff;
+}
+
+.card p {
+  margin: 1rem;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+}
+
+.tags li {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: #b4a094; /* set tag background color */
+  color: #fff; /* set tag font color */
+  font-size: 0.8rem;
+}
+
+.card a {
+  display: block;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: #b4a094; /* set button background color */
+  color: #fff; /* set button font color */
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card a:hover {
+  background-color: #3e3e3e; /* set button hover background color */
+}
+
+footer p {
+  background-color: var(--dark);
+  justify-content: center;
+}
+/* Set footer styling */
+footer {
+  background-color: var(--dark);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
   

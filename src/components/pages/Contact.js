@@ -1,7 +1,12 @@
+
 import React, { useState } from 'react';
+import Resume from "../../asset/resume.pdf";
+
+
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const [emailBlurred, setEmailBlurred] = useState(false);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -11,13 +16,22 @@ function ContactForm() {
     }));
   };
 
+  const handleBlur = (event) => {
+    if (event.target.name === 'email') {
+      setEmailBlurred(true);
+    }
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(formState);
     setFormState({ name: '', email: '', message: '' });
+    setEmailBlurred(false);
   };
 
   return (
+
+    <div><a href={Resume} download="ting-wong-resume.pdf" type="button" class="btn btn-secondary">Download Resume</a>
     <form onSubmit={handleSubmit}>
       <div className="form-group">
         <label htmlFor="name">Name:</label>
@@ -40,7 +54,8 @@ function ContactForm() {
           name="email"
           value={formState.email}
           onChange={handleChange}
-          required
+          onBlur={handleBlur}
+          {...(emailBlurred && { required: true })}
         />
       </div>
       <div className="form-group">
@@ -54,8 +69,11 @@ function ContactForm() {
           required
         />
       </div>
-      <button type="submit" className="btn btn-primary">Send Message</button>
+      <button type="submit" className="btn btn-primary">
+        Send Message
+      </button>
     </form>
+    </div>
   );
 }
 
