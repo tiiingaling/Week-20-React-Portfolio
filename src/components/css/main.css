@@ -9,14 +9,21 @@
   background-color: var(--light);
 }
 
-.tab {
-  background-color: var(--dark);
-  color: white;
+.nav-tabs a {
+  color: #000;
 }
 
+.nav-tabs a:hover {
+  color: var(--dark);
+  background-color: var(--light);
+}
+
+header h1 {
+  justify-content: center;
+}
 
 .page-container {
-  max-height: 100rem;
+  min-height: 1vh;
 }
 
 /* Set container width and add padding */
@@ -102,20 +109,26 @@
   background-color: #3e3e3e; /* set button hover background color */
 }
 
+.card-desc {
+  min-height: 50px;
+}
+
 footer p {
   background-color: var(--dark);
   justify-content: center;
 }
 /* Set footer styling */
+
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: var(--dark);
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  position: absolute;
-  width: 100%;
-  margin-top: 20px;;
-  bottom: -260px;
+  margin-top: 60px;
 }
 
 .app {
@@ -128,4 +141,10 @@ footer {
   footer {
     bottom: -750px;
   }
-} 
+}
+
+@media screen and (max-width: 991px) {
+  footer {
+    bottom: -1200px;
+  }
+}
