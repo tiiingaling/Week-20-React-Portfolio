@@ -6,7 +6,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: 'J.A.T.E',
-      image: '/Week-20-React-Portfolio/assets/jate.png',
+      image: './Week-20-React-Portfolio/assets/jate.png',
       description: 'Just Another Text Editor',
       tags: ['React', 'Javascript', 'PWA'],
       url: 'https://infinite-escarpment-70643.herokuapp.com',
@@ -14,7 +14,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: 'Note Taker',
-      image: '/Week-20-React-Portfolio/assets/note-taker.png',
+      image: './Week-20-React-Portfolio/assets/note-taker.png',
       description: 'A note taking React app with save and delete functions',
       tags: ['React', 'Express', 'API'],
       url: 'https://vast-shelf-36759.herokuapp.com/',
@@ -22,7 +22,7 @@ const Portfolio = () => {
     {
       id: 3,
       title: 'Techblog',
-      image: '/Week-20-React-Portfolio/assets/techblog.png',
+      image: './Week-20-React-Portfolio/assets/techblog.png',
       description: 'A CVS style blog about tech!',
       tags: ['MySQL', 'Node', 'Express'],
       url: 'https://aqueous-reaches-57069.herokuapp.com/',
@@ -30,7 +30,7 @@ const Portfolio = () => {
     {
       id: 4,
       title: 'Rock Paper Scissors',
-      image: '/Week-20-React-Portfolio/assets/rps.png',
+      image: './Week-20-React-Portfolio/assets/rps.png',
       description: 'Simple Rock Paper Scissors game',
       tags: ['React', 'Material UI', 'HTML'],
       url: '',
@@ -38,7 +38,7 @@ const Portfolio = () => {
     {
       id: 5,
       title: 'Discord Bot',
-      image: '/Week-20-React-Portfolio/assets/discord2.png',
+      image: './Week-20-React-Portfolio/assets/discord2.png',
       description: 'Bot for discord to play music via Spotify',
       tags: ['React', 'Javascript', 'Java'],
       url: 'https://discord.com/',
@@ -46,7 +46,7 @@ const Portfolio = () => {
     {
       id: 6,
       title: 'IFTT',
-      image: '/Week-20-React-Portfolio/assets/iftt.png',
+      image: './Week-20-React-Portfolio/assets/iftt.png',
       description: 'IFTT script to automate Spotify playlist',
       tags: ['React', 'Material UI', 'HTML'],
       url: 'https://ifttt.com/',
