@@ -9,17 +9,13 @@
   background-color: var(--light);
 }
 
-.nav-item {
+.tab {
   background-color: var(--dark);
   color: white;
 }
 
-.nav-link {
-  color:#fff;
-}
 
 .page-container {
-
   max-height: 100rem;
 }
 
@@ -128,9 +124,8 @@ footer {
   flex-direction: column;
 }
 
- /* @media screen and (max-width:1399px) {
+ @media screen and (max-width:1399px) {
   footer {
-    margin-top: 20px;
-    position: relative;
+    bottom: -750px;
   }
-}  */
+} 
