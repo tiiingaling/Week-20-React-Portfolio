@@ -9,8 +9,17 @@
   background-color: var(--light);
 }
 
+.nav-item {
+  background-color: var(--dark);
+  color: white;
+}
+
+.nav-link {
+  color:#fff;
+}
+
 .page-container {
-  max-width: max-content;
+
   max-height: 100rem;
 }
 
@@ -22,7 +31,10 @@
   max-width: 100%;
   gap: 1rem;
   background-color: var(--light); /* set background color */
+}
 
+.btn {
+  margin-top: 20px;
 }
 
 .card {
@@ -73,7 +85,7 @@
   margin-bottom: 0.5rem;
   padding: 0.5rem;
   border-radius: 5px;
-  background-color: #b4a094; /* set tag background color */
+  background-color: var(--dark); /* set tag background color */
   color: #fff; /* set tag font color */
   font-size: 0.8rem;
 }
@@ -104,8 +116,21 @@ footer {
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: absolute;
   width: 100%;
+  margin-top: 20px;;
+  bottom: -260px;
 }
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+ /* @media screen and (max-width:1399px) {
+  footer {
+    margin-top: 20px;
+    position: relative;
+  }
+}  */
