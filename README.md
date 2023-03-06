@@ -5,7 +5,8 @@ This week's challenge is to portfolio using your new React skills, which will he
 
 
 ## Screenshots
-[!Screenshot of the About Page](./public/assets/screenshot-about.png)
-[!Screenshot of the Portfolio Page](./public/assets/screenshot-portfolio.png)
+![Screenshot of the About Page](./public/assets/screenshot-about.png)
+![Screenshot of the Portfolio Page](./public/assets/screenshot-portfolio.png)
 
 ## Deployed Link
+https://tiiingaling.github.io/Week-20-React-Portfolio/ 
