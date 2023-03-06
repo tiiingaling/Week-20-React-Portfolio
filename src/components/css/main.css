@@ -34,6 +34,7 @@ header h1 {
   max-width: 100%;
   gap: 1rem;
   background-color: var(--light); /* set background color */
+  margin-bottom: 50px;
 }
 
 .btn {
@@ -135,16 +136,4 @@ footer {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
- @media screen and (max-width:1399px) {
-  footer {
-    bottom: -750px;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  footer {
-    bottom: -1200px;
-  }
 }
