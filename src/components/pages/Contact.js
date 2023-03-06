@@ -1,8 +1,5 @@
 
 import React, { useState } from 'react';
-import Resume from "../../asset/resume.pdf";
-
-
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -31,7 +28,7 @@ function ContactForm() {
 
   return (
 
-    <div><a href={Resume} download="ting-wong-resume.pdf" type="button" class="btn btn-secondary">Download Resume</a>
+    <div>
     <form onSubmit={handleSubmit}>
       <div className="form-group">
         <label htmlFor="name">Name:</label>
