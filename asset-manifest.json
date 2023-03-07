@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Week-20-React-Portfolio/static/css/main.f3a9ba41.css",
-    "main.js": "/Week-20-React-Portfolio/static/js/main.4db94b0e.js",
+    "main.js": "/Week-20-React-Portfolio/static/js/main.b24cd21f.js",
     "static/media/resume.pdf": "/Week-20-React-Portfolio/static/media/resume.a3d377fe3f5881ea938c.pdf",
     "index.html": "/Week-20-React-Portfolio/index.html",
     "main.f3a9ba41.css.map": "/Week-20-React-Portfolio/static/css/main.f3a9ba41.css.map",
-    "main.4db94b0e.js.map": "/Week-20-React-Portfolio/static/js/main.4db94b0e.js.map"
+    "main.b24cd21f.js.map": "/Week-20-React-Portfolio/static/js/main.b24cd21f.js.map"
   },
   "entrypoints": [
     "static/css/main.f3a9ba41.css",
-    "static/js/main.4db94b0e.js"
+    "static/js/main.b24cd21f.js"
   ]
 }
