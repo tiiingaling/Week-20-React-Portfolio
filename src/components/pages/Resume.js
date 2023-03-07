@@ -6,7 +6,7 @@ function downloadResume() {
 
 return (
     <div>
-    <a href={Resume} download="ting-wong-resume.pdf" type="button" class="btn btn-secondary">Download Resume</a>
+    <a href={Resume} download="ting-wong-resume.pdf" type="button" class="btn btn-secondary text-center">Download Resume</a>
     </div>
 )
 }

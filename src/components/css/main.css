@@ -2,11 +2,12 @@
 :root {
   --light: #f3e2d1;
   --dark: #b4a094;
-  font-family: Arial, sans-serif;
+  
 }
 
 * {
   background-color: var(--light);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .nav-tabs a {
@@ -22,10 +23,6 @@ header h1 {
   justify-content: center;
 }
 
-.page-container {
-  min-height: 1vh;
-}
-
 /* Set container width and add padding */
 .container {
   display: flex;
@@ -35,6 +32,18 @@ header h1 {
   gap: 1rem;
   background-color: var(--light); /* set background color */
   margin-bottom: 50px;
+  margin-top: 30px;
+  padding-bottom: 60px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about img {
+  border-radius: 10px;
 }
 
 .btn {
@@ -127,9 +136,24 @@ footer {
   width: 100%;
   background-color: var(--dark);
   color: #fff;
-  padding: 20px 0;
+  padding:10px 0 0 0;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 100px;
+}
+
+
+footer a, .footer-icons {
+  background-color: var(--dark);
+}
+
+.icon {
+  color: var(--light);
+  margin: 10px;
+  margin-bottom: 5px;
+}
+
+.icon:hover {
+  color: #fff
 }
 
 .app {
